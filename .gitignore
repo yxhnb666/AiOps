@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.db
+*.sqlite3
+.env
+.env.*
+!.env.example
+# Node
+node_modules/
+#log
+logs/
+# RAG 运行时数据（向量库 + 上传文件，均可由重新上传重建）
+chroma_db/
+uploads/
